@@ -6,9 +6,9 @@ public class Bonus {
 
 
         if (addBalance > 1000) {
-            System.out.println("Бонус: " + bonus +"р" +" Баланс: "+ (balance + addBalance + bonus) + "р");
+            System.out.println("Бонус: " + bonus + "р" + " Баланс: " + (balance + addBalance + bonus) + "р");
         } else {
-            System.out.println("Бонус: " + bonus +"р" +" Баланс: " + (balance + addBalance) + "р");
+            System.out.println("Бонус: " + bonus + "р" + " Баланс: " + (balance + addBalance) + "р");
         }
 
     }
